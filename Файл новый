@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Гадалка Алина</title>
+  <style>
+    body { font-family: sans-serif; background: #fdf6f6; color: #222; margin: 0; padding: 0; }
+    header { background: #8b0000; color: white; padding: 30px 20px; text-align: center; }
+    h1 { margin: 0; font-size: 2em; }
+    h2 { color: #8b0000; }
+    .content { padding: 20px; max-width: 800px; margin: auto; }
+    .services, .contacts, .reviews { margin-bottom: 30px; }
+    .contact-links a { margin-right: 15px; text-decoration: none; color: #8b0000; font-weight: bold; }
+    .review { background: #fff; border-radius: 8px; padding: 15px; margin-bottom: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); display: flex; gap: 15px; }
+    .review img { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+    .review-text { flex: 1; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Гадалка Алина</h1>
+    <p>22 года опыта. Помощь судьбы без магического вреда.</p>
+  </header>
+
+  <div class="content">
+    <section class="services">
+      <h2>Услуги</h2>
+      <ul>
+        <li>Экспресс мини-расклад: <strong>5 минут — бесплатно</strong></li>
+        <li>Полный расклад: <strong>до 30 минут — 25 €</strong></li>
+        <li>Любовный приворот <strong>без чёрной магии и последствий</strong></li>
+      </ul>
+    </section>
+
+    <section class="contacts">
+      <h2>Контакты</h2>
+      <p>Связаться можно через:</p>
+      <div class="contact-links">
+        <a href="https://t.me/+380975101001" target="_blank">Telegram</a>
+        <a href="viber://chat?number=+380975101001" target="_blank">Viber</a>
+        <a href="https://wa.me/380975101001" target="_blank">WhatsApp</a>
+      </div>
+    </section>
+
+    <section class="reviews">
+      <h2>Отзывы</h2>
+      <div class="review">
+        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="avatar"/>
+        <div class="review-text">
+          <strong>Екатерина, 32 года</strong>
+          <p>Спасибо вам, Алина. После расклада многое прояснилось, а главное — всё сбылось! Очень точная диагностика.</p>
+        </div>
+      </div>
+      <div class="review">
+        <img src="https://randomuser.me/api/portraits/men/42.jpg" alt="avatar"/>
+        <div class="review-text">
+          <strong>Олег, 38 лет</strong>
+          <p>Приворот помог вернуть мою девушку. Никакой чёрной магии, всё чисто. Благодарю за помощь.</p>
+        </div>
+      </div>
+      <div class="review">
+        <img src="https://randomuser.me/api/portraits/women/12.jpg" alt="avatar"/>
+        <div class="review-text">
+          <strong>Марина, 45 лет</strong>
+          <p>Очень душевный подход. Экспресс-расклад бесплатно — удивительно, но даже за 5 минут всё попала в точку.</p>
+        </div>
+      </div>
+      <div class="review">
+        <img src="https://randomuser.me/api/portraits/men/10.jpg" alt="avatar"/>
+        <div class="review-text">
+          <strong>Андрей, 29 лет</strong>
+          <p>Получил расклад и рекомендации — стало легче на душе. Спасибо большое за поддержку и советы.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
